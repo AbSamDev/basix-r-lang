@@ -1,3 +1,9 @@
+#different assigning methods
+a=2
+b<-4
+6->c
+#d->8 wrong method 
+
 a<-4.5
 b<-2.0
 c<-a+b
