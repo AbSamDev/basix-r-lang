@@ -35,4 +35,21 @@ if(myArr3==myArr1 || myArr1==myArr2){
   print("any two of the stgrings are equal")
 }
 #
-for(i in )
+### function in R ###
+## Syntax
+function_name -> function(arg1, arg2,...) {
+  Function Body
+  }
+
+## Example
+new.function <- function(x) {
+   for(i in 1:x) {
+      y <- i^2
+      print(y)
+   }
+}
+
+## Calling the function
+new.function(6)
+
+
